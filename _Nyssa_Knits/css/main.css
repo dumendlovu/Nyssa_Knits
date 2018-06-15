@@ -1,0 +1,184 @@
+/* line 2, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+nav {
+  background-color: black;
+  color: white;
+}
+
+/* line 5, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+nav #nav-head {
+  margin-left: 20px;
+}
+
+/* line 7, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+nav #nav-head a {
+  font-family: cursive;
+  font-size: 28px;
+}
+
+/* line 13, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+nav #navi li {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+/* line 17, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+nav #navi a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+
+/* line 23, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+nav #navi a:hover {
+  color: blue;
+}
+
+/* line 28, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#Bio {
+  background-image: url("../img/Nyssa_03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  min-height: 400px;
+}
+
+/* line 34, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#Bio h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* line 38, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#Bio p {
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  margin-top: 20px;
+  padding: 2%;
+  text-align: justify;
+}
+
+/* line 44, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#Bio p span {
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* line 51, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#collection h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* line 56, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+.collect {
+  padding: 20px;
+}
+
+/* line 58, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+.collect h2 {
+  text-align: center;
+}
+
+/* line 61, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+.collect img {
+  margin: 1%;
+  border-color: black;
+  border-style: double;
+  border-width: 10px;
+  width: 100%;
+}
+
+/* line 68, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+.collect img:hover {
+  background-color: black;
+}
+
+/* line 73, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#contact h1 {
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* line 77, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#contact p {
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 82, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#contact form {
+  background-color: #e6e6e6;
+  border-color: black;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 0.5px;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 350px;
+  padding: 30px;
+}
+
+/* line 92, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#contact form label {
+  font-weight: bold;
+}
+
+/* line 96, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#contact .social-media {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0, 5%;
+}
+
+/* line 100, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+#contact .social-media img {
+  width: 20%;
+  margin: 2%;
+}
+
+/* line 106, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+/* line 109, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+footer p {
+  color: white;
+  margin-top: 5%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 740px) {
+  /* line 117, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+  #contact form {
+    padding: 40px;
+  }
+  /* line 121, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+  #contact .social-media img {
+    margin: 12px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  /* line 129, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+  #Bio h1 {
+    margin-top: 20px;
+  }
+  /* line 132, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+  #Bio p {
+    margin-top: 20px;
+  }
+  /* line 136, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+  .collect {
+    padding: 1%;
+  }
+  /* line 141, /Users/dumezwenindlovu/Desktop/_Project_Working/_Templates/portfolio_template/sass/main.scss */
+  #contact .social-media img {
+    margin: 5px;
+  }
+}
+
+/*# sourceMappingURL=../css/main.map */
